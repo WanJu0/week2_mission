@@ -1,0 +1,206 @@
+body {
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", sans-serif;
+}
+
+h1 {
+  font-size: 128px;
+  color: #00ffa3;
+  text-align: end;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.fs-4 {
+  font-size: 16px;
+}
+
+.mr_20 {
+  margin-right: 20px;
+}
+
+.nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  color: #d1d1d1;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.container .d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white {
+  color: #ffffff;
+}
+
+img {
+  vertical-align: top;
+}
+
+.main {
+  background-color: #000000;
+  color: #ffffff;
+}
+.main .mian_flex {
+  display: flex;
+}
+.main .mian_flex img {
+  width: 636px;
+  padding-top: 72px;
+  padding-bottom: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .mian_flex .photo_content {
+  width: 636px;
+  margin-top: 232px;
+  margin-left: 24px;
+}
+.main .mian_flex .photo_content .people_intro a {
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 12px 24px 12px 24px;
+  color: #000000;
+  border-radius: 32px;
+}
+.main .mian_flex .photo_content .people_intro a img {
+  width: 24px;
+  background-color: #ffffff;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.introduction {
+  background-image: url(./images/background.jpeg);
+}
+.introduction .intro-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 160px;
+  padding-top: 160px;
+}
+.introduction .intro_content {
+  color: #ffffff;
+  width: 565px;
+}
+.introduction .intro_content p {
+  font-size: 24px;
+  margin-top: 36px;
+}
+.introduction .intro_content .spark_sm {
+  display: flex;
+}
+
+.about .about_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.about .detail .detail_list {
+  width: 636px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 206px;
+  margin-bottom: 206px;
+}
+.about .detail .detail_list .list_content {
+  padding: 16px;
+  width: 306px;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 24px;
+}
+.about .about_me {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  width: 565px;
+}
+
+.contact {
+  background-color: #000000;
+}
+.contact .contact_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact_content {
+  display: flex;
+  padding-top: 127px;
+  padding-bottom: 127px;
+}
+.contact .contact_list {
+  display: flex;
+}
+
+.project_title {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 160px;
+  margin-bottom: 16px;
+}
+
+.project_main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.project_main img {
+  width: 416px;
+}
+.project_main .project_list .list_content {
+  display: flex;
+  width: 856px;
+}
+.project_main .project_list .list_content img {
+  width: 196px;
+}
+.project_main .project_list .list_content p {
+  margin-left: 24px;
+  margin-bottom: 124px;
+}
+.project_main .project_list .list_photo {
+  width: 856px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.project_main .project_list .list_photo .phone {
+  width: 306px;
+}
+.project_main .project_list .list_photo .laptop {
+  width: 526px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer p {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
